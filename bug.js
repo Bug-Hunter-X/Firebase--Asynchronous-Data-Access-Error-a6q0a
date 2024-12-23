@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if you try to access a property of a document snapshot before the snapshot has fully loaded. This can happen if you use asynchronous functions without properly handling promises or async/await.
